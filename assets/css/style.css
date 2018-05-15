@@ -1,7 +1,8 @@
 body {
     margin: 30px auto;
     padding: 30px;
-    background-image: url("../images/tic-tac-toe.png")
+    background-image: url("../images/tic-tac-toe.png");
+    width: 682px;
 }
 container {
     text-align: center;
@@ -43,7 +44,7 @@ img {
     border: solid 1px; 
     width: 320px;
     height: 118px;
-    float: right;
+    float: left;
     margin-right: 100px;
     margin-left: 20px;
     padding: 10px;
@@ -63,5 +64,6 @@ img {
     padding:10px;
     text-align:center;
     float:left;
-    background-color: lightgreen
+    background-color: lightgreen;
+    display: block;
 }
