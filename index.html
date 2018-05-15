@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel = "stylesheet" href="assets/css/reset.css">
+    <link rel = "stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class= "container"> 
+            <h1>Crystal Collector</h1>
+        </div>
+            <div id="word">
+                <p> Instructions:</p>
+                <p> You will be given a random number at the start of the game<br></p> 
+                <p> There are four crystals and by clicking on a crystal you will add a specific amount of poitns to your total score.<br></p>
+                <p> You win the game by matching your total score to the random number. If your total score goes beyond the random number, you lose. <br></p>
+                <p> The value of each crystal is hidden until you click on it<br></p>
+                <p> Each time when the game starts, the game will change the values of each crystal!</p>
+            </div>
+        </div>
+
+        <div id="game">
+
+            <div id="randomNumber">
+                <h2>Random Number:</h2>
+                <h2 id="genNum"></h2>
+            </div>
+
+            <div id="sum">
+                <h2>Sum:</h2>
+            </div>
+
+            <div id="winLose"></div>
+
+            <div id="buttons">
+                <img class="gems" id="gems-1" src="assets/images/Screen Shot 2018-05-14 at 3.46.11 PM.png">
+                <img class="gems" id="gems-2" src="assets/images/Screen Shot 2018-05-14 at 3.46.41 PM.png">
+                <img class="gems" id="gems-3" src="assets/images/Screen Shot 2018-05-14 at 3.46.51 PM.png">
+                <img class="gems" id="gems-4" src="assets/images/Screen Shot 2018-05-14 at 3.47.01 PM.png">
+            </div>
+            
+
+        </div>
+            
+            
+
+    </div>
+    <script src = "assets/javascript/game.js"></script>
+</body>
+</html>
